@@ -2,7 +2,7 @@
 
 This project is a comprehensive end-to-end data science application designed to predict house prices based on various features such as area, number of bedrooms, bathrooms, and additional amenities. It includes a machine learning model built with Python and a web-based user interface for real-time predictions.
 
-##📈 Project Workflow
+## 📈 Project Workflow
 The project follows a structured 6-step pipeline:
 
 ***Dataset**: Sourcing and understanding the Housing.csv data.
@@ -44,59 +44,6 @@ The dataset (`Housing.csv`) contains **545 records** with the following features
 * **Save Model**: Pickle or Joblib
 * **Web Framework**: [Streamlit](https://streamlit.io/) (Recommended for beginners) or Flask
 * **Environment**: Jupyter Notebook/Google Colab (for Cleaning and Training) and Streamlit Cloud or Render (for Deployment)
-
----
-
-## ⚙️ Installation & Setup
-
-Follow these steps to get the project running on your local machine:
-
-1. **Clone the Repository**:
-```bash
-git clone https://github.com/your-username/housing-price-prediction.git
-cd housing-price-prediction
-
-```
-
-
-2. **Create a Virtual Environment**:
-```bash
-python -m venv venv
-# Activate it:
-# On Windows:
-venv\Scripts\activate
-# On macOS/Linux:
-source venv/bin/activate
-
-```
-
-
-3. **Install Dependencies**:
-```bash
-pip install pandas numpy scikit-learn streamlit matplotlib seaborn
-
-```
-
-
-
----
-
-## 🧪 How to Run
-
-### 1. Training the Model
-
-Open the Jupyter Notebook `Housing_Analysis.ipynb` (you will need to create this) to see the data cleaning, visualization, and model training steps. After training, the model is usually saved as a `.pkl` file using `pickle` or `joblib`.
-
-### 2. Launching the Web App
-
-If you are using Streamlit, run the following command:
-
-```bash
-streamlit run app.py
-
-```
-
-This will open a new tab in your browser where you can interact with your model!
 
 ---
 
