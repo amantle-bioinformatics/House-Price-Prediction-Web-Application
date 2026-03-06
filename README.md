@@ -2,6 +2,8 @@
 
 This project is a comprehensive end-to-end data science application designed to predict house prices based on various features such as area, number of bedrooms, bathrooms, and additional amenities. It includes a machine learning model built with Python and a web-based user interface for real-time predictions.
 
+**My successfully deployed web app link**: https://amantlemhouse-price-prediction-web-application-7vgsmbeesf8rvdb.streamlit.app/
+
 ## 📈 Project Workflow
 The project follows a structured 6-step pipeline:
 
